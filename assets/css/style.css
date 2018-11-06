@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/gravel.png");
+    font-family: arial, 'helvetica Neue', helvetica, sans-serif;
+}
+
+div {
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.nav1 {
+    width: 960px;
+    margin: auto;
+}
+
+.position {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    float: left;
+    box-sizing: border-box;
+    border: 2px soild #cccccc;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 10px;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-size: 15px;
+}
+
+.navbar {
+    float: right;
+}
+
+nav a {
+    display: inline-block;
+    color: #777777;
+    text-align: center;
+    margin: 2px;
+    padding: 18px 14px;
+    text-decoration: none;
+}
+
+nav a.active {
+    background-color: #ccc;
+    color: #000;
+}
+
+nav a:hover {
+    background-color: #ccc;
+    color: #000000;
+}
+
+.main-content {
+    width: 960px;
+    margin: auto;
+    border: 2px solid #dddddd;
+    padding: 30px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 200%;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #4aaaa5;
+}
+
+#main-image {
+    float: left;
+    width: 300px;
+    margin: 15px 20px 20px 0px;
+}
+
+hr {
+    height:2px;
+    border-width: 1px;
+    background-color:gray
+  }
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.center {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.gallery {
+    border: 1px solid black;
+    width: 350px;
+    height: auto;
+    margin: 20px;
+}
+
+footer {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 980px){
+    body {
+        background: url("../images/sun-pattern.png");
+    }
+    .nav1{
+        width: 100%;
+    }
+    .main-content {
+        width: 80%;
+    }
+    .gallery{
+        width: 80%;
+    }
+    footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body {
+        background: url("../images/christmas-colour.png");
+    }
+    .nav1{
+        width: 100%;
+    }
+    .main-content {
+        width: 80%;
+    }
+    .gallery{
+        width: 80%;
+    }
+    footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    body {
+        background: url("../images/light-veneer.png");
+    }
+    .nav1{
+        width: 100%;
+    }
+    .navbar {
+        clear: both;
+    }
+    .position {
+        position:static;
+    width:100%;
+    }
+    .main-content {
+        width: 80%;
+    }
+    .gallery{
+        width: 80%;
+    }
+    footer {
+        width: 100%;
+    }
+}
+
