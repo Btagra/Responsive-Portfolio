@@ -142,7 +142,7 @@ footer {
         background: url("../images/sun-pattern.png");
     }
     #main-image {
-        width: 80%;
+        width: 100%;
     }
     .nav1{
         width: 100%;
@@ -163,7 +163,7 @@ footer {
         background: url("../images/christmas-colour.png");
     }
     #main-image {
-        width: 80%;
+        width: 100%;
     }
     .nav1{
         width: 100%;
@@ -184,7 +184,7 @@ footer {
         background: url("../images/light-veneer.png");
     }
     #main-image {
-        width: 80%;
+        width: 100%;
         clear: both;
         margin: auto;
     }
