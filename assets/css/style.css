@@ -186,6 +186,9 @@ footer {
     header {
         font-size: 25px;
     }
+    nav {
+        font-size: 10px;
+    }
     #main-image {
         display: block
         width: 40%;
