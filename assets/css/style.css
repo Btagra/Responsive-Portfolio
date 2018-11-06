@@ -159,6 +159,9 @@ footer {
     body {
         background: url("../images/christmas-colour.png");
     }
+    #main-image {
+        width: 100%;
+    }
     .nav1{
         width: 100%;
     }
