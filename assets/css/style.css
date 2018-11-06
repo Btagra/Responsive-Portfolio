@@ -188,6 +188,7 @@ footer {
     }
     nav {
         font-size: 10px;
+        margin: auto;
     }
     #main-image {
         display: block
