@@ -183,6 +183,9 @@ footer {
     body {
         background: url("../images/light-veneer.png");
     }
+    header {
+        font-size: 25px;
+    }
     #main-image {
         width: 100%;
         clear: both;
