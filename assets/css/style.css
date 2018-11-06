@@ -184,14 +184,10 @@ footer {
         background: url("../images/light-veneer.png");
     }
     header {
-        font-size: 25px;
+        font-size: 20px;
     }
     nav {
         font-size: 10px;
-    }
-    nav a{
-        margin: 0;
-        padding: 0;
     }
     #main-image {
         display: block
