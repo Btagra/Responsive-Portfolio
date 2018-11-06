@@ -177,6 +177,9 @@ footer {
     body {
         background: url("../images/light-veneer.png");
     }
+    #main-image {
+        width: 100%;
+    }
     .nav1{
         width: 100%;
     }
