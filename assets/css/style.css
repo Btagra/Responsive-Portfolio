@@ -190,7 +190,7 @@ footer {
         font-size: 10px;
     }
     nav a{
-        margin: auto;
+        margin: 1px;
     }
     #main-image {
         display: block
