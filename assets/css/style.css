@@ -185,6 +185,8 @@ footer {
     }
     #main-image {
         width: 70%;
+        clear: both;
+        margin: auto;
     }
     .nav1{
         width: 100%;
