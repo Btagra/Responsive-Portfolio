@@ -188,6 +188,8 @@ footer {
     }
     nav {
         font-size: 10px;
+    }
+    nav a{
         margin: auto;
     }
     #main-image {
