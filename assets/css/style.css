@@ -187,8 +187,9 @@ footer {
         font-size: 25px;
     }
     #main-image {
-        width: 100%;
-     
+        display: block
+        width: 40%;
+        clear: both;
         margin: auto;
     }
     .nav1{
