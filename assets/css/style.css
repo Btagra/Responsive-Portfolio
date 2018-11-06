@@ -141,6 +141,9 @@ footer {
     body {
         background: url("../images/sun-pattern.png");
     }
+    #main-image {
+        width: 80%;
+    }
     .nav1{
         width: 100%;
     }
@@ -158,6 +161,9 @@ footer {
 @media only screen and (max-width: 768px){
     body {
         background: url("../images/christmas-colour.png");
+    }
+    #main-image {
+        width: 80%;
     }
     .nav1{
         width: 100%;
@@ -178,7 +184,7 @@ footer {
         background: url("../images/light-veneer.png");
     }
     #main-image {
-        width: 100%;
+        width: 80%;
     }
     .nav1{
         width: 100%;
