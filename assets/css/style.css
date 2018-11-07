@@ -160,7 +160,7 @@ footer {
         background: url("../images/christmas-colour.png");
     }
     #main-image {
-        width: 100%;
+        width: 50%;
     }
     .nav1{
         width: 100%;
@@ -188,7 +188,7 @@ footer {
     }
     #main-image {
         display: block;
-        width: 60%;
+        width: 100%;
         clear: both;
         margin: auto;
     }
